@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("hearts.jpg");
+	height: 100vh;
+}
+
+.container{
+	width: 550px;
+	height: 450px;
+}
+
+.header{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.header h2{
+	font-family: "Merienda", serif;
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+	-webkit-text-stroke: 1.5px black;
+}
+
+.main-content{
+	width: 95%;
+	height: 350px;
+	padding: 50px 10px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 25px 31px rgba(0, 0, 0, 0.5);
+	font-family: "Montserrat", serif;
+	margin: auto;
+}
+
+.text-area{
+	text-align: center;
+	font-size: 25px;
+	color: #262626;
+	line-height: 1.5;
+}
+
+.main-content .writer{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: red;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.main-content .button-area{
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	padding: 10px 0;
+}
+
+.button-area .btn button{
+	background-color: #262626;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 12px 15px;
+}
+
+.button-area .btn button:active{
+	background-color: deepskyblue;
+}
